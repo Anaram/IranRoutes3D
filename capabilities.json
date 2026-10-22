@@ -1,0 +1,381 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "استان مبدأ",
+            "name": "origin",
+            "kind": "Grouping",
+            "description": "نام استان مبدأ (فارسی یا انگلیسی)"
+        },
+        {
+            "displayName": "استان مقصد",
+            "name": "destination",
+            "kind": "Grouping",
+            "description": "نام استان مقصد"
+        },
+        {
+            "displayName": "تعداد پیمایش",
+            "name": "measure",
+            "kind": "Measure",
+            "description": "تعداد سفر/بارنامه در این مسیر"
+        },
+        {
+            "displayName": "Tooltips",
+            "name": "tooltips",
+            "kind": "Measure"
+        }
+    ],
+    "objects": {
+        "routes": {
+            "properties": {
+                "mode": {
+                    "type": {
+                        "enumeration": [
+                            {
+                                "value": "auto",
+                                "displayName": "خودکار (چندک)"
+                            },
+                            {
+                                "value": "manual",
+                                "displayName": "دستی"
+                            }
+                        ]
+                    }
+                },
+                "t1": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "t2": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "t3": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "t4": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "c1": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "c2": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "c3": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "c4": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "c5": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "minWidth": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "maxWidth": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "arcHeight": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "maxRoutes": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "arrows": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "animate": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "glow": {
+                    "type": {
+                        "bool": true
+                    }
+                }
+            }
+        },
+        "base": {
+            "properties": {
+                "fill": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "border": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "depth": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "tilt": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "perspective": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "sideTop": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "sideBottom": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "shadow": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "nodes": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "nodeColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "labels": {
+            "properties": {
+                "show": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "fontSize": {
+                    "type": {
+                        "formatting": {
+                            "fontSize": true
+                        }
+                    }
+                },
+                "color": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "legend": {
+            "properties": {
+                "show": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "title": {
+                    "type": {
+                        "text": true
+                    }
+                },
+                "position": {
+                    "type": {
+                        "enumeration": [
+                            {
+                                "value": "right",
+                                "displayName": "راست"
+                            },
+                            {
+                                "value": "left",
+                                "displayName": "چپ"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "header": {
+            "properties": {
+                "show": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "text": {
+                    "type": {
+                        "text": true
+                    }
+                },
+                "fontSize": {
+                    "type": {
+                        "formatting": {
+                            "fontSize": true
+                        }
+                    }
+                },
+                "color": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "general2": {
+            "properties": {
+                "persianDigits": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "callout": {
+                    "type": {
+                        "bool": true
+                    }
+                }
+            }
+        }
+    },
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "origin": {
+                        "max": 1
+                    },
+                    "destination": {
+                        "max": 1
+                    },
+                    "measure": {
+                        "max": 1
+                    }
+                }
+            ],
+            "categorical": {
+                "categories": {
+                    "select": [
+                        {
+                            "bind": {
+                                "to": "origin"
+                            }
+                        },
+                        {
+                            "bind": {
+                                "to": "destination"
+                            }
+                        }
+                    ],
+                    "dataReductionAlgorithm": {
+                        "top": {
+                            "count": 2000
+                        }
+                    }
+                },
+                "values": {
+                    "select": [
+                        {
+                            "bind": {
+                                "to": "measure"
+                            }
+                        },
+                        {
+                            "bind": {
+                                "to": "tooltips"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "tooltips": {
+        "supportedTypes": {
+            "default": true,
+            "canvas": true
+        },
+        "roles": [
+            "tooltips"
+        ]
+    },
+    "supportsMultiVisualSelection": true,
+    "privileges": []
+}

@@ -1,0 +1,26 @@
+{
+  "visual": {
+    "name": "iranRoutes3D",
+    "displayName": "Iran Routes 3D",
+    "guid": "iranRoutes3D36DDD2073C314200BD44924BD4D31DAD",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "مسیرهای بین‌استانی روی نقشه سه‌بعدی ایران — رنگ و ضخامت بر اساس تعداد پیمایش",
+    "supportUrl": "https://github.com/",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "5.11.1",
+  "author": {
+    "name": "Azin",
+    "email": "azin.barghdoust@gmail.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": [],
+  "version": "1.0.0.0"
+}
